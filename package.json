@@ -4,7 +4,7 @@
   "description": "training server node.js",
   "main": "port.js",
   "scripts": {
-    "test": "npm start"
+    "start": "nodemon port.js"
   },
   "author": "TanyaShcherba",
   "license": "ISC",
