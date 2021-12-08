@@ -2,14 +2,15 @@
   "name": "node-js-server",
   "version": "1.0.0",
   "description": "training server node.js",
-  "main": "port.js",
+  "main": "main.js",
   "scripts": {
-    "start": "nodemon port.js"
+    "start": "nodemon main.js"
   },
   "author": "TanyaShcherba",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^6.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

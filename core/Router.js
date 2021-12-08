@@ -4,7 +4,6 @@ module.exports = class Router {
         this.endpoints = {}
     }
     
-
     request (method = "GET", path, handler){
        
         if(!this.endpoints[path]){
@@ -17,8 +16,6 @@ module.exports = class Router {
         }
 
         endpoint[method] = handler
-        
-        
     }
 
     get(path, handler) {
